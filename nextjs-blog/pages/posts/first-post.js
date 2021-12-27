@@ -9,6 +9,7 @@ export default function FirstPost()
         <Layout>
         <Head> 
             <title> FirstPost </title>
+            <link rel= "icon" href = "/images/favicon.ico" /> 
         </Head>
         <h1> First Post </h1>
         <h2>

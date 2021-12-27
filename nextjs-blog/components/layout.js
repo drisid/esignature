@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Dhrithi'
-export const siteTitle = 'mywebsite'
+export const siteTitle = 'dhrithi'
 
 export default function Layout({ children, home }) {
   return (
@@ -25,12 +25,13 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
       {/* <meta name="twitter:card" content="summary_large_image" /> */}
       </Head>
+     
       <header className={styles.header}>
         {home ? (
           <>
             <Image
               priority
-              src = "/images/profile.jpg" className={utilStyles.borderCircle}
+              src = "/images/corals.jpg" className={utilStyles.borderCircle}
               height={108}
               width={108}
               alt={name}
@@ -43,7 +44,7 @@ export default function Layout({ children, home }) {
               <a>
                 <Image
                   priority
-                  src="/images/profile.jpg"
+                  src="/images/corals.jpg"
                   className={utilStyles.borderCircle}
                   height={108}
                   width={108}
