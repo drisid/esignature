@@ -10,6 +10,7 @@ export default function SecondPost()
  <Layout>
    <Head>
        <title> SecondPost </title>
+       <link rel= "icon" href = "/images/favicon.ico" /> 
        </Head>
     
       {/* <Script 
